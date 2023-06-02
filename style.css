@@ -1,0 +1,194 @@
+body{
+    background-color: #EAF2FF;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius:20px ;
+    height:50px ;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    top:10px ;
+    left: 15px;
+}
+.logo span{
+    position: absolute;
+    top: 15px;
+    left: 60px;
+    color: #00204C;
+    font-size: 21px;
+    font-weight:bold ;
+}
+.menu ul {
+   display: flex; 
+   list-style: none;
+
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size:18px ;
+    padding: 0 10px;
+    color: black;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+}
+.Jump{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    margin: 50px auto 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.Games{
+   
+}
+.span{
+    color: #EAF2FF;
+    background-color: blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+}
+.p{
+   text-align: justify;
+   margin:15px auto ;
+   width:400px ;
+   color: #00204C;
+   font-size: 24px;
+}
+h1{
+    text-align: center;
+}
+.Jump img{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+.Jump figure{
+    width: 50px;
+    border-radius: 15px;
+    border: 3px solid aquamarine;
+    height: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.share img{
+    width: 100%;
+    
+}
+.share{
+    width: 200px;
+    position: absolute;
+    right:200px ;
+    bottom: 0px;
+}
+.section2{
+    position: relative;
+    height: 600px;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+.section3{
+    background:url("https://static.wixstatic.com/media/c837a6_cd0336b9e01e4d9c96d141cf216631ec~mv2.jpg/v1/fill/w_1149,h_680,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_cd0336b9e01e4d9c96d141cf216631ec~mv2.jpg") ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width:90% ;
+    margin: auto;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding-left:50px;
+}
+.play{
+    
+}
+.white{
+    background-color: white; 
+    width: 600px;
+    height: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 20px;
+}
+.content{
+    background-color: chartreuse;
+    padding: 20px;
+    width: 300px;
+}
+ .figure{   
+    height: 70%;
+    background:  url("https://i.pinimg.com/originals/de/42/80/de4280b674416a7988b9e787b11d51df.jpg") ;
+    background-size:95% 97% ;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 50px 50px;
+    background-origin:content-box ;
+    background-position: top right;
+}
+.figure img{
+    width: 105%;
+    height: 100%;
+   
+}
+.p2{
+    width: 100%;
+}
+.section4{
+    color:#00204C ;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto ;
+    width: 90%;
+    border-top:1px solid black ;
+    padding-top: 50px;
+    
+}
+.section4 h3{
+    margin-bottom: 30px;
+}
+.contact p{
+    line-height: 30px;
+}
+input[type=text] {
+    border-radius: 15px;
+    padding: 20px;
+    border: none;
+    outline:1px solid #00204C;
+}
+label{
+    line-height: 50px; 
+}
+input[type=submit]{
+    padding: 20px;
+    background-color: rgb(212, 0, 255);
+    color: #EAF2FF;
+    border-radius: 20px;
+    border: none;
+}
+.menu1 ul{
+    list-style:none ;
+    
+}
+.menu1 li{
+    line-height: 30px;
+}
