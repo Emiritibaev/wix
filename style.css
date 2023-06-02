@@ -112,7 +112,7 @@ h2{
     background-repeat:no-repeat ;
     background-size: cover;
     width:90% ;
-    margin: auto;
+    margin: 50px auto;
     height: 800px;
     display: flex;
     align-items: center;
